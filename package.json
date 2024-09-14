@@ -12,5 +12,14 @@
     "eslint-config-metarhia": "^9.0.5",
     "prettier": "^3.3.3",
     "markdown-it-plantuml": "^1.4.1"
+  },
+  "scripts": {
+    "docs:build": "vuepress-webpack build docs",
+    "docs:clean-dev": "vuepress-webpack dev docs --clean-cache",
+    "docs:dev": "vuepress-webpack dev docs",
+    "docs:update-package": "npx vp-update",
+    "test": "npm run lint",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\"",
+    "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\""
   }
 }
