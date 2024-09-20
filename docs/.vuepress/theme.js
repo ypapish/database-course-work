@@ -1,9 +1,7 @@
 import { hopeTheme } from 'vuepress-theme-hope';
-import sidebar from './sidebar.js';
+import { enSidebar, uaSidebar } from './sidebar/index.js';
 
 export default hopeTheme({
-  hostname: 'https://vuepress-theme-hope-docs-demo.netlify.app',
-
   iconAssets: 'fontawesome-with-brands',
 
   editLink: false,
@@ -11,8 +9,6 @@ export default hopeTheme({
   repo: 'serrhiy/database-course-work',
 
   docsDir: 'docs',
-
-  sidebar,
 
   footer: 'ECL 2.0 Licensed | Copyright © [2024] [Serhii Lytvynenko] ',
 
@@ -49,4 +45,9 @@ export default hopeTheme({
       vPre: true,
     },
   },
+
+  locales: {
+    '/': { sidebar: enSidebar },
+    '/ua/': { sidebar: uaSidebar },
+  }
 });

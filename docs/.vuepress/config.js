@@ -4,11 +4,18 @@ import MarkdownItPlantuml from 'markdown-it-plantuml';
 
 export default defineUserConfig({
   base: '/database-course-work/',
-  lang: 'en-US',
-  title: 'Система аналізу медіа-контенту',
-  description: 'Курсова робота',
   theme,
-  extendsMarkdown: (md) => {
-    md.use(MarkdownItPlantuml);
+  extendsMarkdown: (md) => void md.use(MarkdownItPlantuml),
+  locales: {
+    '/': {
+      lang: 'en-US',
+      title: 'Media content analysis system',
+      description: 'Coursework',
+    },
+    '/ua/': {
+      lang: 'uk-UA',
+      title: 'Система аналізу медіа-контенту',
+      description: 'Курсова робота',
+    },
   },
 });
