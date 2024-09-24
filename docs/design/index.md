@@ -1,4 +1,4 @@
-# Проєктування бази даних
+# Database design
 
 The project is developing:
 
