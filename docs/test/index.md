@@ -1,3 +1,3 @@
-# Тестування працездатності системи
+# Testing of the system performance
 
-*В цьому розділі необхідно вказати засоби тестування, навести вихідні коди тестів та результати тестування.*
+_In this section, you should specify the test tools, provide test source codes and test results._
