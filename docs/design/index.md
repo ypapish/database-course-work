@@ -1,7 +1,7 @@
-# Проєктування бази даних
+# Database design
 
-В рамках проекту розробляється:
+The project is developing:
 
-- модель бізнес-об'єктів
-- ER-модель
-- реляційна схема
+- business object model
+- ER-model
+- relational scheme
