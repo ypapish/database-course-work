@@ -1,6 +1,6 @@
-# Реалізація інформаційного та програмного забезпечення
+# Implementation of information and software
 
-В рамках проекту розробляється:
+It is being developed as part of the project:
 
-- SQL-скрипт для створення на початкового наповнення бази даних
-- RESTfull сервіс для управління даними
+- SQL script to create the initial database content
+- RESTfull service for data management
