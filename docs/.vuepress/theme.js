@@ -49,5 +49,5 @@ export default hopeTheme({
   locales: {
     '/': { sidebar: enSidebar },
     '/ua/': { sidebar: uaSidebar },
-  }
+  },
 });

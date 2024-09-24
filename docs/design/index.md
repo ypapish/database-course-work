@@ -1,6 +1,7 @@
 # Проєктування бази даних
 
-В рамках проекту розробляється: 
-- модель бізнес-об'єктів 
-- ER-модель
-- реляційна схема
+The project is developing:
+
+- business object model
+- ER-model
+- relational scheme
