@@ -12,7 +12,7 @@ export const enSidebar = sidebar({
     },
     {
       text: 'Development of general requirements to the system',
-      prefix: 'requirements',
+      prefix: 'requirements/',
       link: 'requirements/',
       children: 'structure',
       collapsible: true,
