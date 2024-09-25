@@ -1,81 +1,81 @@
-# Запити зацікавлених осіб
+## Stakeholder requests
 
-## Вступ
+## Introduction
 
-_[Вступ повинен містити короткий огляд всього документу.]_
+_[The introduction should provide a brief overview of the entire document.]_
 
-### Мета
+### Purpose
 
-_[Визначення мети цієї сукупності вимог. Зазвичай такою метою є створення та впровадження
-інформаційної системи відповідного призначення.]_
+_[Define the purpose of this set of requirements. Typically, the purpose is to create and implement an
+of an information system for a specific purpose.]_
 
-### Контекст
+### Context.
 
-_[Короткий опис того, з якими проектами пов'язаний цей документ, на що він впливає.]_
+_[A brief description of what projects this document is related to and affects.]_
 
-### Основні визначення та скорочення
+### Key definitions and abbreviations
 
-_[Розділ містить визначення всіх термінів та скорочень, необхідних для правильного
-тлумачення вимог. Можна зробити посилання на документ, в якому поданий аналіз предметної області.]_
+_[This section contains definitions of all terms and abbreviations necessary for a correct
+interpretation of the requirements. You can make a reference to the document that provides an analysis of the subject area.]_
 
-### Посилання
+### References
 
-_[Розділ містить повний список всіх документів, про які згадується.]_
+_[This section contains a complete list of all referenced documents.]_
 
-## Короткий зміст
+## Summary
 
-_[Розділ містить опис того, про що йдеться в еій частині цього документу, що залишилася.
-Також тут описана структура документу.]_
+_[This section contains a description of what is covered in the remaining part of the document.
+It also describes the structure of the document.]_
 
-## Характеристика ділових процесів
+## Business process description
 
-_[В цьому розділі визначаються зовнішні фактори, що впливають на бізнес (бізнес-актори),
-та внутрішні фактори (робітники), дається загальна характеристика діяльності бізнес-акторів
-та робітників, яка здійснюється за допомогою бізнесу._
+_[This section identifies the external factors that affect the business (business actors),
+and internal factors (employees), and provides a general description of the activities of the business actors
+and employees that are carried out through the business.]_
 
-_Дається опис бізнес-сценаріїв взаємодії бізнес-акторів, робітників і, можливо, інформаційної системи за допомогою наступної
-специфікації:_
+_Describe the business scenarios for the interaction of the business actors, workers and possibly the information system using the following
+specification:_
 
 **_ID:_**
 
-**_НАЗВА:_**
+**_TITLE:_**
 
-**_УЧАСНИКИ:_**
+**_PARTICIPANTS:_**
 
-**_ПЕРЕДУМОВИ:_**
+**_BACKGROUND:_**
 
-**_РЕЗУЛЬТАТ:_**
+**_OUTCOME:_**
 
-**_ВИКЛЮЧНІ СИТУАЦІЇ:_**
+**_EXCEPTIONAL SITUATIONS:_**
 
-**_ОСНОВНИЙ СЦЕНАРІЙ:_**
+**_MAIN SCENARIO:_**
 
-_Кількість сценаріїв визначається у відповідності до специфіки завдання та необхідного
-рівня деталізації (зазвичай, 5-6 сценаріїв)._
+_The number of scenarios is determined according to the specifics of the task and the required
+level of detail required (usually 5-6 scenarios)._
 
-## Короткий огляд продукту
+## Product Summary.
 
-_[Визначається границя системи та категорії її користувачів. Дається загальна характеристика категорій користувачів
-системи]_
+_[The boundary of the system and its user categories are defined. A general description of the user categories is given
+of the system]_
 
-_[Нижче йде опис FURPS:]_
+_[Below is a description of the FURPS:]_
 
-## Функціональність
+## Functionality
 
-_[Functionality (функциональні вимоги)]_
+_[Functionality (functional requirements)]_
 
-## Практичність
+## Usability
 
-_[Usability (вимоги до зручності роботи)]_
+_[Usability (requirements for ease of use)]_.
 
-## Надійність
+## Reliability
 
-_[Reliability (вимоги до надійності)]_
+_[Reliability (reliability requirements)]_
 
-## Продуктивність
+## Performance
 
-_[Performance (вимоги до продуктивності)]_
+_[Performance (performance requirements)]_
 
-## Експлуатаційна придатність
+## Supportability
 
-_[Supportability (вимоги до підтримки)]_
+_[Supportability (support requirements)]_
