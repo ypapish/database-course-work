@@ -1,14 +1,14 @@
 ---
 home: true
 icon: home
-title: Початок
+title: The beginning
 
-heroText: Система аналізу медіа-контенту
+heroText: Media content analysis system
 
-tagline: Лабораторні роботи з дисципліни "Бази данних"
+tagline: Laboratory works in the discipline ‘Databases’
 
 actions:
-  - text: Розпочати
+  - text: Start
     icon: lightbulb
     link: ./intro/
     type: primary
@@ -16,24 +16,24 @@ actions:
 footer: 'ECL 2.0 Licensed | Copyright © [2024] [Serhii Lytvynenko] |'
 ---
 
-**Виконали:**
+**Prepared by:**
 
-_Студент 2-го курсу, групи ІМ-31_ <span padding-right:5em></span>Литвиненко Сергій Андрійович<span padding-left:5em></span> [Telegram](https://t.me/gjdtkjd)
+_2nd year student, group IM-31_ <span padding-right:5em></span>Lytvynenko Serhii Andriyovych<span padding-left:5em></span> [Telegram](https://t.me/gjdtkjd)
 
-_Студентка 2-го курсу, групи ІМ-31_ <span padding-right:5em></span>Папіш Яна Олександрівна<span padding-left:5em></span> [Telegram](https://t.me/ypapishh)
+_2nd year student, group IM-31_ <span padding-right:5em></span>Papish Yana Oleksandrivna<span padding-left:5em></span> [Telegram](https://t.me/ypapishh)
 
-_Студент 2-го курсу, групи ІМ-31_ <span padding-right:5em></span>Максимовський Назар Русланович<span padding-left:5em></span> [Telegram](https://t.me/gothicenemy)
+_2nd year student, group IM-31_ <span padding-right:5em></span>Maksymovskyi Nazar Ruslanovych<span padding-left:5em></span> [Telegram](https://t.me/gothicenemy)
 
-_Студент 2-го курсу, групи ІМ-31_ <span padding-right:5em></span>Красуля Олександр Олександрович<span padding-left:5em></span> [Telegram](https://t.me/glov1ee)
+_2nd year student, group IM-31_ <span padding-right:5em></span>Krasulia Oleksandr Oleksandrovych<span padding-left:5em></span> [Telegram](https://t.me/glov1ee)
 
-**Керівник**
+**Leader**
 
-_доцент кафедри ОТ ФІОТ, к.т.н., доцент_<span padding-right:5em></span> **Андрій БОЛДАК**
+_Associate Professor of the Department of SE at the FICE, Ph.D. in Technical Sciences, Associate Professor._<span padding-right:5em></span> **Andriy BOLDAK**
 
-[НТУУ "КИЇВСЬКИЙ ПОЛІТЕХНІЧНИЙ ІНСТИТУТ імені ІГОРЯ СІКОРСЬКОГО](https://kpi.ua/)
+[NTUU "Igor Sikorskyi Kyiv Polytechnic Institute"](https://kpi.ua/)
 
-[Факультет інформатики та обчислювальної техніки](https://fiot.kpi.ua/)
+[Faculty of Informatics and Computer Engineering](https://fiot.kpi.ua/)
 
-[Кафедра обчислювальної техніки](https://comsys.kpi.ua/)
+[Department of Computer Engineering](https://comsys.kpi.ua/)
 
-Київ
+Kyiv
