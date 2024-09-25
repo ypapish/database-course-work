@@ -1,4 +1,4 @@
-## Analysis of the subject area
+# Analysis of the subject area
 
 ## Introduction
 
