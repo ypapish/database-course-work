@@ -1,4 +1,4 @@
-# Розроблення загальних вимог до системи
+# Development of general requirements for the system
 
-- [Аналіз предметної області](./state-of-the-art.html)
-- [Запити зацікавлених осіб](./stakeholders-needs.html)
+- State-of-the-art analysis](./state-of-the-art.html)
+- [Stakeholder needs](./stakeholders-needs.html)
