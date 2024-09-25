@@ -23,8 +23,8 @@ The markdown file uses a description of the chart
     end header
 
     title
-        <font size=18 color=black>UC_8. Редагувати конфігурацію порталу
-        <font size=16 color=black>Діаграма прецедентів
+        <font size=18 color=black>UC_8. Edit the portal configuration
+        <font size=16 color=black>Diagram of precedents
     end title
 
 
@@ -92,8 +92,8 @@ which will be displayed as follows
     end header
 
     title
-        <font size=18 color=black>UC_8. Редагувати конфігурацію порталу
-        <font size=16 color=black>Діаграма прецедентів
+        <font size=18 color=black>UC_8. Edit the portal configuration
+        <font size=16 color=black>Diagram of precedents
     end title
 
 
