@@ -1,34 +1,34 @@
-# Аналіз предметної області
+## Analysis of the subject area
 
-## Вступ
+## Introduction
 
-_[Вступ повинен містити короткий огляд всього документу.]_
+_[The introduction should provide a brief overview of the entire document.]_
 
-## Основні визначення
+## Key definitions
 
-_[Розділ містить визначення термінів та скорочень, які використовуються при аналізі предметної області.]_
+_[This section contains definitions of terms and abbreviations used in the subject area analysis.]_
 
-## Підходи та способи вирішення завдання
+## Approaches and methods of solving the problem
 
-_[Розділ містить опис підходів, моделей та способів вирішення завдання.]_
+_[This section describes the approaches, models, and methods of solving the problem.]_
 
-## Порівняльна характеристика існуючих засобів вирішення завдання
+## Comparative characteristics of the existing means of solving the problem
 
-_[Розділ містить опис існуючих програм, інформаційних систем, сервісів, тощо, призначених для вирішення
-завдання. Дається порівняльна характеристика властивостей FURPS:_
+_[This section contains a description of existing programs, information systems, services, etc. designed to solve the problem.
+the task. A comparative characterization of the FURPS properties is given:_
 
-- _Functionality (функциональні вимоги)_
-- _Usability (вимоги до зручності роботи)_
-- _Reliability (вимоги до надійності)_
-- _Performance (вимоги до продуктивності)_
-- _Supportability (вимоги до підтримки)_
+- _Functionality (functional requirements)_
+- _Usability (usability requirements)_
+- _Reliability (reliability requirements)_
+- _Performance (performance requirements)_
+- _Supportability_
 
-  _(у вигляді таблиці).]_
+  _(in the form of a table.)]_
 
-## Висновки
+## Conclusions.
 
-_[Робляться висновки щодо доцільності розробки нової або модифікації існуючої інформаційної системи, необхідності та способів інтеграції з системами(сервісами) третіх сторін, тощо.]_
+_[Conclusions are drawn on the feasibility of developing a new or modifying an existing information system, the need and methods of integration with third-party systems (services), etc.]_
 
-## Посилання
+## References
 
-_[Розділ містить повний список всіх документів, про які згадується.]_
+_[The section contains a complete list of all documents mentioned.]_
