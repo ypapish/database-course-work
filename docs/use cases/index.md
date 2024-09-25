@@ -1,12 +1,12 @@
-# Модель прецедентів
+# A model of precedents
 
-В цьому файлі необхідно перелічити всі документи, розроблені в проекті та дати посилання на них.
+This file should list all documents developed in the project and provide links to them.
 
-_Модель прецедентів повинна містити загальні оглядові діаграми та специфікації прецедентів._
+_The precedent model should contain general overview diagrams and precedent specifications._
 
-Вбудовування зображень діаграм здійснюється з використанням сервісу [plantuml.com](https://plantuml.com/).
+You can embed chart images using the [plantuml.com](https://plantuml.com/).
 
-В markdown-файлі використовується опис діаграми
+The markdown file uses a description of the chart
 
 ```md
 <center style="
@@ -28,24 +28,24 @@ _Модель прецедентів повинна містити загаль�
     end title
 
 
-    actor "Користувач" as User #eeeeaa
+    actor "User" as User #eeeeaa
 
     package UCD_1{
-        usecase "<b>UC_1</b>\nПереглянути список \nзвітів" as UC_1 #aaeeaa
+        usecase "<b>UC_1</b>\nView the list of \nreports" as UC_1 #aaeeaa
     }
 
-    usecase "<b>UC_1.1</b>\nЗастосувати фільтр" as UC_1.1
-    usecase "<b>UC_1.2</b>\nПереглянути метадані \nзвіту" as UC_1.2
-    usecase "<b>UC_1.2.1</b>\nДати оцінку звіту" as UC_1.2.1
-    usecase "<b>UC_1.2.2</b>\nПереглянути інформацію \nпро авторів звіту" as UC_1.2.2
+    usecase "<b>UC_1.1</b>\nApply a filter" as UC_1.1
+    usecase "<b>UC_1.2</b>\nView report metadata" as UC_1.2
+    usecase "<b>UC_1.2.1</b>\nEvaluate the report" as UC_1.2.1
+    usecase "<b>UC_1.2.2</b>\nView information \nabout the authors of the report" as UC_1.2.2
 
     package UCD_1 {
-        usecase "<b>UC_4</b>\nВикликати звіт" as UC_4 #aaeeaa
+        usecase "<b>UC_4</b>\nCall up a report" as UC_4 #aaeeaa
     }
 
-    usecase "<b>UC_1.1.1</b>\n Використати \nпошукові теги" as UC_1.1.1
-    usecase "<b>UC_1.1.2</b>\n Використати \nрядок пошуку" as UC_1.1.2
-    usecase "<b>UC_1.1.3</b>\n Використати \nавторів" as UC_1.1.3
+    usecase "<b>UC_1.1.1</b>\n Use \nsearch tags" as UC_1.1.1
+    usecase "<b>UC_1.1.2</b>\n Use \nsearch bar" as UC_1.1.2
+    usecase "<b>UC_1.1.3</b>\n Use \nauthors" as UC_1.1.3
 
 
 
@@ -64,19 +64,19 @@ _Модель прецедентів повинна містити загаль�
     UC_1.1.3 -u-|> UC_1.1
 
     right footer
-        Аналітичний портал. Модель прецедентів.
-        НТУУ КПІ ім.І.Сікорського
-        Киів-2020
+        Analytical portal. A model of precedents.
+        NTUU KPI named after Igor Sikorsky
+        Kyiv-2024
     end footer
 
 @enduml
 
-**Діаграма прецедентів**
+**Diagram of precedents**
 
 </center>
 ```
 
-яка буде відображена наступним чином
+which will be displayed as follows
 
 <center style="
     border-radius:4px;
@@ -97,24 +97,24 @@ _Модель прецедентів повинна містити загаль�
     end title
 
 
-    actor "Користувач" as User #eeeeaa
+    actor "User" as User #eeeeaa
 
     package UCD_1{
-        usecase "<b>UC_1</b>\nПереглянути список \nзвітів" as UC_1 #aaeeaa
+        usecase "<b>UC_1</b>\nView the list of \nreports" as UC_1 #aaeeaa
     }
 
-    usecase "<b>UC_1.1</b>\nЗастосувати фільтр" as UC_1.1
-    usecase "<b>UC_1.2</b>\nПереглянути метадані \nзвіту" as UC_1.2
-    usecase "<b>UC_1.2.1</b>\nДати оцінку звіту" as UC_1.2.1
-    usecase "<b>UC_1.2.2</b>\nПереглянути інформацію \nпро авторів звіту" as UC_1.2.2
+    usecase "<b>UC_1.1</b>\nApply a filter" as UC_1.1
+    usecase "<b>UC_1.2</b>\nView report metadata" as UC_1.2
+    usecase "<b>UC_1.2.1</b>\nEvaluate the report" as UC_1.2.1
+    usecase "<b>UC_1.2.2</b>\nView information \nabout the authors of the report" as UC_1.2.2
 
     package UCD_1 {
-        usecase "<b>UC_4</b>\nВикликати звіт" as UC_4 #aaeeaa
+        usecase "<b>UC_4</b>\nCall up a report" as UC_4 #aaeeaa
     }
 
-    usecase "<b>UC_1.1.1</b>\n Використати \nпошукові теги" as UC_1.1.1
-    usecase "<b>UC_1.1.2</b>\n Використати \nрядок пошуку" as UC_1.1.2
-    usecase "<b>UC_1.1.3</b>\n Використати \nавторів" as UC_1.1.3
+    usecase "<b>UC_1.1.1</b>\n Use \nsearch tags" as UC_1.1.1
+    usecase "<b>UC_1.1.2</b>\n Use \nsearch bar" as UC_1.1.2
+    usecase "<b>UC_1.1.3</b>\n Use \nauthors" as UC_1.1.3
 
 
 
@@ -133,13 +133,13 @@ _Модель прецедентів повинна містити загаль�
     UC_1.1.3 -u-|> UC_1.1
 
     right footer
-        Аналітичний портал. Модель прецедентів.
-        НТУУ КПІ ім.І.Сікорського
-        Киів-2020
+        Analytical portal. A model of precedents.
+        NTUU KPI named after Igor Sikorsky
+        Kyiv-2024
     end footer
 
 @enduml
 
-**Діаграма прецедентів**
+**Diagram of precedents**
 
 </center>
