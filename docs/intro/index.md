@@ -1,12 +1,12 @@
-# Вступ
+# Intro
 
-У вступі описується мета роботи і розглядається поставлене завдання з позиції її
-актуальності, значення її розв’язання для тієї предметної області, до якої відноситься
-тема бакалаврського проєкту.
+The intro describes the purpose of the work and considers the task in terms of its
+relevance, the importance of its solution for the subject area to which the
+the topic of the bachelor's project.
 
-Коротко характеризується сучасний рівень розв’язання
-даного завдання і взаємозв’язок з іншими проєктами по цій тематиці.
+Briefly describes the current state of the art in solving this problem.
+of this task and the relationship with other projects on this topic.
 
-Наводяться
-основні технічні характеристики розробки й очікуваний технічно-економічний ефект
-від її реалізації.
+The following are provided
+the main technical characteristics of the development and the expected technical and economic effect
+from its implementation.
