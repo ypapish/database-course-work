@@ -111,35 +111,35 @@ _Основні завдання NER:_
 
 ## Посилання
 
-**\*Аналіз** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Analysis)\*
+**Аналіз** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Analysis)
 
-- **\*Контент-аналіз** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Content_analysis)\*
+- **Контент-аналіз** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Content_analysis)
 
-- **\*ЗМІ** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Mass_media)\*
+- **ЗМІ** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Mass_media)
 
-- **\*Медіа** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](<https://en.wikipedia.org/wiki/Media_(communication)>)\*
+- **Медіа** Wikipedia. Wikimedia Foundation. [Link](<https://en.wikipedia.org/wiki/Media_(communication)>)
 
-- **\*Медіа-моніторинг** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Media_monitoring)\*
+- **Медіа-моніторинг** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Media_monitoring)
 
-- **\*Система** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/System)\*
+- **Система** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/System)
 
-- **\*Comprehensive training in Research Methods** (no date) NCRM. Available at: [Link](https://www.restore.ac.uk/lboro/netscape4/research/methods/)\*
+- **Comprehensive training in Research Methods** NCRM. [Link](https://www.restore.ac.uk/lboro/netscape4/research/methods/)
 
-- **\*Content analysis** (2022) Columbia University's Mailman School of Public\*
-  _Health. Available at: [Link](https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis)_
+- **Content analysis** Columbia University's Mailman School of Public\*
+  _Health. [Link](https://www.publichealth.columbia.edu/research/population-health-methods/content-analysis)_
 
-- **\*Data Mining** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Data_mining)\*
+- **Data Mining** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Data_mining)
 
-- **\*Emotion recognition** (2023) Wikipedia. Wikimedia Foundation. Available at:[Link](https://en.wikipedia.org/wiki/Emotion_recognition)\*
+- **Emotion recognition** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Emotion_recognition)
 
-- **\*Frame analysis** (2023) Wikipedia. Wikimedia Foundation. Available at: [Link](https://en.wikipedia.org/wiki/Frame_analysis)\*
+- **Frame analysis** Wikipedia. Wikimedia Foundation. [Link](https://en.wikipedia.org/wiki/Frame_analysis)
 
-- **\*Named entity recognition** (2022) GeeksforGeeks. GeeksforGeeks. Available at: [Link](https://www.geeksforgeeks.org/named-entity-recognition/)\*
+- **Named entity recognition** GeeksforGeeks. GeeksforGeeks. [Link](https://www.geeksforgeeks.org/named-entity-recognition/)
 
-- _TokenEx (2023) **What is tokenization?**, tokenex. Available at: [Link](https://www.tokenex.com/blog/what-is-tokenization/)_
+- TokenEx **What is tokenization?**, tokenex. [Link](https://www.tokenex.com/blog/what-is-tokenization/)
 
-- **\*Use discourse analysis** (no date) Emerald Publishing. Available at: [Link](https://www.emeraldgrouppublishing.com/how-to/research/data-analysis/use-discourse-analysis)\*
+- **Use discourse analysis** Emerald Publishing. [Link](https://www.emeraldgrouppublishing.com/how-to/research/data-analysis/use-discourse-analysis)
 
-- **\*What is natural language processing?** (no date) IBM. Available at: [Link](https://www.ibm.com/topics/natural-language-processing)\*
+- **What is natural language processing?** IBM. [Link](https://www.ibm.com/topics/natural-language-processing)
 
-- **\*What is text mining?** (no date) IBM. Available at: [Link](https://www.ibm.com/topics/natural-language-processing)\*
+- **What is text mining?** IBM. [Link](https://www.ibm.com/topics/natural-language-processing)
