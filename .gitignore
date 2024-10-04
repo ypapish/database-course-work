@@ -4,5 +4,3 @@ node_modules/
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
 docs/.vuepress/dist/
-.idea/workspace.xml
-.idea/vcs.xml
