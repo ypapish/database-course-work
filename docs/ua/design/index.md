@@ -71,17 +71,17 @@ MediaContent -d- Source
   }
   
      entity "User" {
+    + id: Int
+    + email: Text
     + username: Text
     + password: Text
-    + email: Text
-    + id: Int
-    + role: Datetime
+    + role: Text
   }
   
      entity "Source" {
     + id: Int
-    + url: Int
     + name: Text
+    + url: Int
   }
 
    entity "MediaContent" {
