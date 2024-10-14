@@ -60,3 +60,46 @@ MediaContent -d- Category
 MediaContent -d- Source
 
 @enduml
+
+## ER-модель
+
+@startuml
+
+   entity "Role" {
+    + id: Int 
+    + name: Text
+  }
+  
+     entity "User" {
+    + username: Text
+    + password: Text
+    + email: Text
+    + id: Int
+    + role: Datetime
+  }
+  
+     entity "Source" {
+    + id: Int
+    + url: Int
+    + name: Text
+  }
+
+   entity "MediaContent" {
+    + id: Int
+    + name: Text
+    + category: Text  
+    + sources: Text
+    + created_at: Datetime 
+    + updated_at: Datetime 
+  }
+  
+    entity "Category" {
+    + id: Int
+    + name: Text
+  }
+  
+  User -- Role
+  MediaContent -- Source
+  MediaContent -- Category
+
+@enduml
