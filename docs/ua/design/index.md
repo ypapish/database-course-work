@@ -103,3 +103,8 @@ MediaContent -d- Source
   MediaContent -- Category
 
 @enduml
+
+## Реляційна схема
+
+![](scheme.png)
+
