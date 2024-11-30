@@ -3,7 +3,6 @@
 ## Модель бізнес-об'єктів
 
 @startuml
-
 entity User
 entity User.username #FFFFFF 
 entity User.password #FFFFFF
@@ -22,9 +21,18 @@ entity Source.id #FFFFFF
 entity Source.url #FFFFFF
 entity Source.name #FFFFFF
 
-Source.id *-- Source
+Source.id --* Source
 Source.url --* Source
 Source.name --* Source
+
+entity Permission
+entity Permission.id #FFFFFF
+entity Permission.name #FFFFFF
+entity Permission.description #FFFFFF
+
+Permission.id --* Permission
+Permission.name --* Permission
+Permission.description --* Permission
 
 entity Category
 entity Category.id #FFFFFF
@@ -55,22 +63,61 @@ entity Role.name #FFFFFF
 Role.id --* Role
 Role.name --* Role
 
-User -d- Role 
-MediaContent -d- Category
-MediaContent -d- Source
+entity Comment
+entity Comment.id #FFFFFF
+entity Comment.content #FFFFFF
+entity Comment.created_at #FFFFFF
+
+Comment.id --* Comment
+Comment.content --* Comment
+Comment.created_at --* Comment
+Comment.updated_at --* Comment
+
+entity Tag
+entity Tag.id #FFFFFF
+entity Tag.name #FFFFFF
+
+Tag.id --* Tag
+Tag.name --* Tag
+
+
+User "0,*" -d- "1,1" Role
+User "0,*" -d- "1,1" Permission
+User "1,*" -d- "0,*" Comment
+MediaContent "1,1" -d- "0,*" Category
+MediaContent "1,1" -d- "0,*" Source
+MediaContent "0,*" -d- "0,*" Tag
+MediaContent "1,1" -d- "0,*" Comment
 
 @enduml
 
 ## ER-модель
 
 @startuml
-
-   entity "Role" {
+entity "Role" {
     + id: Int 
     + name: Text
   }
+
+entity "Comment" {
+    + id: Int
+    + content: Text 
+    + created_at: Datetime
+    + updated_at: Datetime
+  }
+ 
+entity "Tag" {
+    + id: Int
+    + name: Text
+  }
+
+entity "Permission" {
+  + id: Int
+  + name: Text
+  + description: Text
+}
   
-     entity "User" {
+entity "User" {
     + id: Int
     + email: Text
     + username: Text
@@ -78,13 +125,13 @@ MediaContent -d- Source
     + role: Text
   }
   
-     entity "Source" {
+entity "Source" {
     + id: Int
     + name: Text
     + url: Int
   }
 
-   entity "MediaContent" {
+entity "MediaContent" {
     + id: Int
     + name: Text
     + category: Text  
@@ -98,9 +145,13 @@ MediaContent -d- Source
     + name: Text
   }
   
-  User -- Role
-  MediaContent -- Source
-  MediaContent -- Category
+User "0,*" -d- "1,1" Role
+User "0,*" -d- "1,1" Permission
+User "1,*" -d- "0,*" Comment
+MediaContent "1,1" -d- "0,*" Category
+MediaContent "1,1" -d- "0,*" Source
+MediaContent "0,*" -d- "0,*" Tag
+MediaContent "1,1" -d- "0,*" Comment
 
 @enduml
 
