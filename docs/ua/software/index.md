@@ -7,12 +7,6 @@
 
 SQL
 ```sql
-drop database if exists mediacontent;
-drop user if exists caesar;
-create user caesar with password '1111';
-create database mediacontent owner caesar;
-
-
 create table "roles" (
   "id"   bigint generated always as identity,
   "name" varchar(32) not null
