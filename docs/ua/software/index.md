@@ -8,6 +8,7 @@
 SQL
 
 ```sql
+
 create table "roles" (
   "id"   bigint generated always as identity,
   "name" varchar(32) not null
@@ -51,7 +52,6 @@ create table "mediaContents" (
   "isActive"    boolean default true,
   "createdAt"   timestamptz default current_timestamp,
   "updatedAt"   timestamptz,
-  "source"      text,
   "description" text
 );
 
@@ -60,4 +60,15 @@ alter table "mediaContents" add constraint "fkMediaContentsCategoryId" foreign k
 alter table "mediaContents" add constraint "fkMediaContentUserId" foreign key ("userId") references "users" ("id");
 create index "akMediaContentsCategoryId" on "mediaContents" ("categoryId");
 create index "akMediaContentsUserId" on "mediaContents" ("userId");
+
+create table "sources" (
+  "id"          bigint generated always as identity,
+  "mediaId"     bigint not null,
+  "createdAt"   timestamptz default current_timestamp,
+  "source"      text,
+  "description" text
+);
+
+alter table "sources" add constraint "pkSources" primary key ("id");
+alter table "sources" add constraint "fkSourcesMediaId" foreign key ("mediaId") references "mediaContents" ("id");
 ```
