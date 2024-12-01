@@ -6,6 +6,7 @@
 - RESTfull сервіс для управління даними
 
 SQL
+
 ```sql
 create table "roles" (
   "id"   bigint generated always as identity,
