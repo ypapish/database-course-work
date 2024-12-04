@@ -6,12 +6,11 @@ const fields = ['id', 'name'];
       name: {
         mandatory: true,
         validators: [isString, (str) => str.length >= 3],
-        refers: { table: 'roles', column: 'name', exists: false }
+        refers: { table: 'roles', column: 'name', exists: false },
       },
     },
-    controller: async ({ name }) => (
-      await db('roles').insert({ name }).returning(fields)
-    ),
+    controller: async ({ name }) =>
+      await db('roles').insert({ name }).returning(fields),
   },
 
   read: {
@@ -37,11 +36,10 @@ const fields = ['id', 'name'];
         mandatory: true,
         validators: [isNumber],
         refers: { table: 'roles', column: 'id', exists: true },
-      }
+      },
     },
-    controller: async ({ name, id }) => (
-      await db('roles').where({ id }).update({ name }).returning(fields)
-    ),
+    controller: async ({ name, id }) =>
+      await db('roles').where({ id }).update({ name }).returning(fields),
   },
 
   delete: {
@@ -50,8 +48,9 @@ const fields = ['id', 'name'];
         mandatory: true,
         validators: [isNumber],
         refers: { table: 'roles', column: 'id', exists: true },
-      }
+      },
     },
-    controller: async ({ id }) => void await db('roles').where({ id }).delete()
+    controller: async ({ id }) =>
+      void (await db('roles').where({ id }).delete()),
   },
 });

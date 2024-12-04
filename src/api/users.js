@@ -86,10 +86,9 @@ const fields = [
         mandatory: true,
         validators: [isNumber],
         refers: { table: 'users', column: 'id', exists: true },
-      }
+      },
     },
-    controller: async ({ id }) => (
-      void await db('userd').where({ id }).delete()
-    )
-  }
+    controller: async ({ id }) =>
+      void (await db('userd').where({ id }).delete()),
+  },
 });

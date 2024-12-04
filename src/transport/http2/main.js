@@ -66,12 +66,12 @@ module.exports = (options, port, controllers, db) => {
     if (!exists || !body || !body.service || !body.data) {
       stream.respond({ ':status': exists ? 400 : 404 });
       const message = exists ? 'Bad Request' : 'Page Not Found';
-    
+
       const answer = { success: false, message };
       return void stream.end(JSON.stringify(answer));
     }
     const service = controllers.get(url)[body.service];
-    if (!service || ! await isDataValid(body.data, service.structure, db)) {
+    if (!service || !(await isDataValid(body.data, service.structure, db))) {
       stream.respond({ ':status': 400 });
       const answer = { success: false, message: 'Invalid body' };
       return void stream.end(JSON.stringify(answer));
