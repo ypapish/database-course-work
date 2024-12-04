@@ -72,3 +72,5 @@ create table "sources" (
 alter table "sources" add constraint "pkSources" primary key ("id");
 alter table "sources" add constraint "fkSourcesMediaId" foreign key ("mediaId") references "mediaContents" ("id");
 ```
+
+[RESTfull сервіс](https://github.com/serrhiy/database-course-work/tree/main/src);
