@@ -31,28 +31,33 @@ const parseBody = (chunks) => {
   }
 };
 
-const isDataValid = (data, structure) => {
-  for (const [field, { mandatory, validators }] of Object.entries(structure)) {
-    const exists = field in data;
-    if (!exists) {
+const isDataValid = async (data, structure, db) => {
+  for (const [field, options] of Object.entries(structure)) {
+    const { mandatory, validators, refers } = options;
+    if (!data[field]) {
       if (mandatory) return false;
       continue;
     }
     const value = data[field];
     const valid = validators.every((validator) => validator(value));
     if (!valid) return false;
+    if (!refers) continue;
+    const { table, column, exists } = refers;
+    const output = await db(table).where(column, value);
+    const existance = output.length > 0;
+    if (existance !== exists) return false;
   }
   return true;
 };
 
 const wrapData = [
-  (data) => ({ success: true, data }),
+  (data) => ({ success: true, data: data ?? {} }),
   (error) => ({ success: false, message: error.message }),
 ];
 
 const retrieveBody = asyncPipe(getBody, parseBody);
 
-module.exports = (options, port, controllers) => {
+module.exports = (options, port, controllers, db) => {
   const server = http2.createSecureServer(options);
   server.on('stream', async (stream, headers) => {
     const url = prepareUrl(headers[':path']);
@@ -61,11 +66,12 @@ module.exports = (options, port, controllers) => {
     if (!exists || !body || !body.service || !body.data) {
       stream.respond({ ':status': exists ? 400 : 404 });
       const message = exists ? 'Bad Request' : 'Page Not Found';
+    
       const answer = { success: false, message };
       return void stream.end(JSON.stringify(answer));
     }
     const service = controllers.get(url)[body.service];
-    if (!service || !isDataValid(body.data, service.structure)) {
+    if (!service || ! await isDataValid(body.data, service.structure, db)) {
       stream.respond({ ':status': 400 });
       const answer = { success: false, message: 'Invalid body' };
       return void stream.end(JSON.stringify(answer));

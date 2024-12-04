@@ -24,8 +24,10 @@ const sandbox = {
   console,
   isString: (value) => typeof value === 'string',
   isNumber: (value) => !Number.isNaN(Number.parseInt(value)),
-  generateToken: require('node:crypto').randomUUID,
-  common: { ...require('./hash.js') },
+  common: {
+    ...require('./hash.js'),
+    generateToken: require('node:crypto').randomUUID,
+  },
 };
 
 const main = async () => {
@@ -33,7 +35,7 @@ const main = async () => {
   const paths = await resolvePaths(apipath);
   const staticUrls = buildStaticUrls(paths, ['.js']);
   const controllers = await mapValues(staticUrls, load(sandbox));
-  apiServer(options, config.api.port, controllers);
+  apiServer(options, config.api.port, controllers, db);
 };
 
 main();
