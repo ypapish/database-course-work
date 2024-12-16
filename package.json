@@ -15,6 +15,7 @@
     "vuepress-theme-hope": "2.0.0-rc.52"
   },
   "scripts": {
+    "deploy": "gh-pages -d docs/.vuepress/dist",
     "docs:build": "vuepress-webpack build docs",
     "docs:clean-dev": "vuepress-webpack dev docs --clean-cache",
     "docs:dev": "vuepress-webpack dev docs",
